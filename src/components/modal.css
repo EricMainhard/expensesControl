@@ -1,0 +1,54 @@
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.92);
+    z-index: 1;
+}
+
+.modal__close{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.modal__form{
+    opacity: 0;
+    transition: .3s ease;
+    margin: 5rem auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.modal__form.animated{
+    opacity: 1;
+}
+
+.modal__form legend {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.modal__form fieldset {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin-top: 1rem;
+}
+
+.modal__form input, .modal__form select {
+    width: 200px;
+    text-align: center;
+    padding: .5rem;
+}
+
+.modal__formSubmit{
+    margin-top: 2rem;
+}

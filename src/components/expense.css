@@ -1,0 +1,44 @@
+.expense{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+
+.expense__content{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.expense__icon{
+    width: 100px;
+}
+
+.expense__quantity{
+    font-weight: bold;
+}
+
+.swipe-action__leading {
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.swipe-action__trailing {
+    background-color: #db2777;
+    color: var(--blanco);
+}
+
+.swipeable-list .swipe-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    text-align: right;
+}
+
+.swipeable-list{
+    box-shadow: 1px 1px 6px 0px;
+    border-radius: 1rem;
+}

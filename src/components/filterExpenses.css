@@ -1,0 +1,13 @@
+.filterBox{
+    display: flex;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0px 0px 5px 0px;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.filterBox > label, .filterBox > select {
+    width: 50%;
+}

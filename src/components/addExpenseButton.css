@@ -1,0 +1,10 @@
+.addExpense__button{
+    width: 50px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.addExpense__button img {
+    width: 100%;
+}

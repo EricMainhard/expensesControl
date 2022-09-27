@@ -1,0 +1,19 @@
+.newBudget__form{
+    box-shadow: 1px 1px 10px 2px;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px;
+}
+
+.newBudget__formField{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    width: 200px;
+    margin: auto;
+}
+
+.newBudget__formField input, .newBudget__formField button{
+    padding: .5rem 1rem;
+}
